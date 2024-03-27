@@ -1,0 +1,18 @@
+//to create environment variable:
+python -m venv env
+
+//to activate environment variable:(outside env file )
+D:\CODE\FULLSTACK\REACT-DJANGO\env\Scripts\activate 
+or 
+env/Scripts/activate.bat
+
+//install dependicies
+pip install -r requirements.txt
+
+//create backend:
+django-admin startproject backend
+
+python manage.py startapp api
+
+python manage.py migrate  
+python manage.py runserver  
